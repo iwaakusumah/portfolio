@@ -158,6 +158,9 @@ p.lead {
 	line-height: 1.8;
 	color: #888888;
 }
+p.skills {
+	text-align: justify;
+}
 @media only screen and (max-width:768px) {
 	p.lead {
 		font-size: 1.7rem;
@@ -1509,7 +1512,7 @@ header .logo a {
 	float: left;
 }
 .intro-info .lead {
-	text-align: left;
+	text-align: justify;
 	padding-left: 13rem;
 }
 
@@ -1608,7 +1611,7 @@ header .logo a {
 	}
 	.intro-info .lead {
 		padding-left: 0;
-		text-align: center;
+		text-align: justify;
 	}
 }
 
